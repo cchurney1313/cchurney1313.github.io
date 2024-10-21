@@ -79,3 +79,20 @@ nav ul{
 nav ul li{
     font-weight:var(--bold-font);
 }
+
+
+.hero{
+    padding: 1.5rem 3.5rem;
+}
+
+.bio-text{
+    padding: 1rem 0rem;
+}
+
+.skills{
+    padding:1.5rem 3.5rem;
+}
+
+.more-about{
+    padding:1.5rem 3.5rem;
+}
