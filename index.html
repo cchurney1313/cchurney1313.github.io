@@ -28,9 +28,8 @@
                 </p>
             </div>
         </section>
-        <section class="more-about">
-            <h2>More About Me</h2>
-        </section>
+        
+        
         <section class="skills" id="skills">
             <h2 class="skill-header">My Top Skills</h2>
             <div class="skills-wrapper">
@@ -96,6 +95,40 @@
                 </div>
             </div>
             
+        </section>
+        <section class="contact" id="contact">
+            <h2>Get in Touch with Me!</h2>
+            <div class="contact-form-container">
+                <div class="contact-form">
+                    <form action="https://formspree/io/f/xyylngw" method="POST">
+                        <div class="form-control">
+                            <label for="name">Name</label>
+                            <input type="text"
+                            id="name"
+                            name="sender-name"
+                            placeholder="Enter your name"
+                            class="input-field"
+                            required
+                            />
+                            </div>
+                            <div class="form-control">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="sender-email"
+                                placeholder="Enter your email" class="input-field"
+                                required />
+
+                            </div>
+                            <div class="form-control">
+                                <label for="message">Message</label>
+                                <textarea id="message" cols="60" rows="10" placeholder="Enter your message" name="message" class="input-field" required></textarea>
+
+                            </div>
+                            <input type="submit" value="Submit" id="submit-btn" class="submit-btn"/>
+
+                        
+                    </form>
+                </div>
+            </div>
         </section>
         <script src="assets/js/app.js"></script>
     </body>
