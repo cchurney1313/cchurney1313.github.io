@@ -150,6 +150,13 @@ nav ul li{
 }
 
 .icon{
-    width:6rem;
-    height:6rem;
+    width:7rem;
+    height:7rem;
+}
+.icon-card{
+    background-color:#fff;
+    border-radius:11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding:20px;
+    margin:10px;
 }
