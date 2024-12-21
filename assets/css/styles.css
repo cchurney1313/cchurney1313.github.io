@@ -177,3 +177,6 @@ nav ul li{
     border-radius:5px;
     box-shadow:0 3px 10px var(--secondary-shadow);
 }
+.contact-form-container label{
+    line-height:2.7em;
+}
